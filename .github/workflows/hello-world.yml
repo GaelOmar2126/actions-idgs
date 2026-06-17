@@ -4,7 +4,7 @@ jobs:
   hello-world-action:
     runs-on: ubuntu-latest
     steps:
-      - run: actions/checkout@v2
+      - uses: actions/checkout@v2
       - run: Hello world action step
       - run: echo "Hello world from GitHub Actions!"
       - run: echo "SIUUUUUUUU"
