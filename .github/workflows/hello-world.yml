@@ -1,0 +1,13 @@
+name: Hello world Actions
+on: [push]
+jobs:
+  hello-world-action:
+    runs-on: ubuntu-latest
+    steps:
+      - run: actions/checkout@v2
+      - run: Hello world action step
+      - run: echo "Hello world from GitHub Actions!"
+      - run: echo "SIUUUUUUUU"
+      - run: Guardar el mundo de los videojuegos
+      - run: echo "¡Hola mundo desde GitHub Actions!"
+      - run: echo "¡Hola mundo desde GitHub Actions!"
