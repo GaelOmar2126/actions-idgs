@@ -5,7 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: Hello world action step
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
       - run: echo "Hello world from GitHub Actions!"
       - run: echo "SIUUUUUUUU"
       - run: Guardar el mundo de los videojuegos
