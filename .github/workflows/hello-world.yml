@@ -10,6 +10,5 @@ jobs:
           python-version: 3.8
       - run: echo "Hello world from GitHub Actions!"
       - run: echo "SIUUUUUUUU"
-      - run: Guardar el mundo de los videojuegos
       - run: echo "¡Hola mundo desde GitHub Actions!"
       - run: echo "¡Hola mundo desde GitHub Actions!"
