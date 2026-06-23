@@ -14,3 +14,17 @@ jobs:
         run: echo "USERNAME=${GITHUB_ACTOR}" >> $GITHUB_ENV
       - name: Ejecuta Script Python
         run: python .github/app.py
+
+  run-javascript-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inicio
+        run: echo "Iniciando el flujo de trabajo de GitHub Actions"
+      - name: Clona Repositorio
+        uses: actions/checkout@v2
+      - name: Muestra Archivos
+        run: ls -la
+      - name: Definir variables 
+        run: echo "USERNAME=${GITHUB_ACTOR}" >> $GITHUB_ENV
+      - name: Ejecuta Script JavaScript
+        run: node .github/app.js
